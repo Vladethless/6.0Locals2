@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 45" width="44" height="45">
+	<title>Footer</title>
+	<defs>
+		<image width="50" height="50" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAS1SURBVHgB7Votc+MwEF13DhQWBhoGHgw0LCwsDCy8n3A/4WBhYGFgoWFhYKBhYGBYT896O1E2siXF6Qfom9GosaXVPu1qJa0r8oMffAiqVIP39/eFqxpXbl3ZuPJaVdVBvhlGiTgSjXgSB5Y7V3aurErIcDIwEXuW3bUnoxoZvJEjiRUVWLoykwIyTg7aP0VeQV7nysbJ6WQiqoHBG/EkgGc30I7PMatLKSczF2+RO9boXwdNQKp1sjZyIarIoI0cSQgHaIP3F5GJjAM5IPhbjqT2lLeXQlRGuLoBFHt15V78DH4ImUAeLNWIJyV2vBxYIo/iZ2kNM5PYUj6BDGWCSCPeBbfUI0vmjfldu3JQX+XaWIm3UEO3E77TIIA2PWGSiyk4Z6mH2lDmRo6BZT4m86yvGfCvqzoncGWe51pm6969RPraqAXybxzrbD0YmWf6xHATeXY2A5mW6WeR/m77rl1pxbuLWvDBlT+hrIhMtIUV7yWBX+a3bnoSI+MErsTPFMhIYJlbI8P2PQmrweKuKQtr4yRagYx7DuvCmgv393Zsv7EWwQzc0h2iZMRYhkotxU9Am7M4obAra8rasO+THZfE1vw5ahVLZMt6LsNKnJARP2NKopUCBIRa8VZdRlwTOnWuzGi5KIaI1DKugJIRiQQAC8w0ItaIvFZOydh12rJeDMn4ZQTunZBO/AKrE2cgdaEuQaIW73r4GxVcqbXRCjLoWnMq3AbvupResaj1xrqRcSiRVJzXUAtrQ3m4RzRaiV8PkLuIWEUDRtTtz4jQJzFgnXAHDNiJ993ZWDtXcId5ceUflYX8xpKhTJAGCetG2yIiRMu6kXGo8IVkIti9NfLVponOfG36oT2sexfb7W9GBuvEW2UwgnFQDPDbRpsxcH288mcTeaceYRXesa6tzCGLAC3r+6HzDmdJ2z1IAThZ6D+LyO9Y28nRAJFnEQ7UifdX3YWH2vVnJvEzmO1ixFaOF64QqvBs4Hk+EaJl50XCxTTa3I8t/AiGIt/B1KnnWVmUWvw+gM7PQ7c37rpwr6JbHojrVXrK85RFQhe7lZF1QJ9vxbtJ/j0iotQlz5NE2BkRppPEkZo7vB4ClyWRbCqyiBC6kS0SGyDagYzeGj+FTHKNhAjuEW1qDbi2cEOsm9I107tk6f2/iEgpTGopecw37YvSsxcT4Z6BMjrbjGaaVurEZ0Zi9/RGJqRnpxKBgknXMbdI4OQoH5DoZYkngvbZqaZJrhUosK4y0p0mbyVyPDtB4ZN9qjRvNnmNDG1QiT4gFKZKFRcnAa+62LnHdLzT5LSHolqWMiGjWbKPpJSCu2DdPOYeHnnp2l8jo3k1IkHqpj88SiGmkrn6PkLL3FUXfrwpSM9ueIrocTWLKOgqHQfGtfRxLB8V6Z9jmf5WGva7OhEDWAf3mAccWXLPXWNk5PjV6zSdJB8M3mceqEDRJzbrZuJvlPr7lbfTHh9OhAph4EaO2RbM+EvOQdKQOchAZvNTiARKxY4qya+6we0TiB4+P5WIInJUgWX0w88u0lYPnYMn6C8hohg4qsB99qzhVrpfnKwJiy8loqDL1eJJhcprdrGtrvBPBV+C3OTFD74r/gMLFuYF0KAAhAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Footer">
+		<g id="contact info">
+			<g id="Call us">
+				<use id="phone-call (1)" href="#img1" transform="matrix(1,0,0,1,-3,-3)"/>
+			</g>
+		</g>
+	</g>
+</svg>

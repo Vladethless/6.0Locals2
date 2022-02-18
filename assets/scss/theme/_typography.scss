@@ -1,0 +1,97 @@
+/* --------------------------------------------
+    Template Default Fonts & Fonts Styles
+ ---------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto:wght@400;500;700&display=swap");
+
+// font-family: 'Oxygen', sans-serif;
+$heading-font: "Roboto", sans-serif;
+$body-font: "Oxygen", sans-serif;
+
+$oxygen: "Oxygen", sans-serif;
+$roboto: "Roboto", sans-serif;
+
+//font-family: "Font Awesome 5 Pro";
+$fa: "Font Awesome 5 Pro";
+
+body {
+    font-family: $body-font;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #777;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $heading-font;
+    margin: 0px;
+    font-weight: 600;
+    color: #000;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -3px;
+
+    @media (max-width: 991px) {
+        font-size: 2.25rem;
+        line-height: 3rem;
+    }
+
+    &.fs-lg {
+        font-size: 80px;
+        line-height: 115%;
+        letter-spacing: -4px;
+
+        @media (min-width: 767px) and (max-width: 991px) {
+            font-size: 42px;
+        }
+    }
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 130%;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+h4 {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+h5 {
+    font-size: 1.125rem;
+    line-height: 1.88rem;
+}
+
+h6 {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+    outline: none !important;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 28px;
+    color: $color-white;
+    font-family: "Oxygen", sans-serif;
+    cursor: pointer;
+}
+
+p {
+    margin: 0px;
+}

@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 48" width="32" height="48">
+	<title>Footer</title>
+	<defs>
+		<image width="50" height="50" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARySURBVHgB3VotdyMxDFTvHQgsLDQMDAxcGBh4sPDg/YT7CQcLAwsDAxcWBgYaFgaG9TzdUau6u1nLmxR03vNz158aS7JlpyLfBDdyYby8vISUzVO6TekupRmrTikdU3pO6XBzcxPlgrgIkSQ8hF0yzQq7gVSbCO3lAphMhBpYS6cBIJp0TIIe2Q4EoSG0X5j2qN9O1dAkIkm4JmUNP6N0KxwL+4aUraQjJ+zbSiWqiWQkdkmIJ6lAGgfmuOJnNZkqIoYEHHiTJn82dTChIJ35YLXVhNAGZnTI/SL1Qbt76fyrioybSJoUgv3h50NGArvVygg/hE+OTlO75+fG6zM1REDiVrKV6/EXCInVP7EefYJ0mgpsl4+hZoZN4p848NPTOE2ku81xgASE3vVtqdy9UL7nOBC4SX+LjgU/Y90dcs/W/EN8WDJv5Z3EQj76y+jkbLNhn4ZmpdgxX4gDxURoGnDKYyZsw7y1/jIGtm35uTblUTqCgXMWwaOROfOoBVxJNTX39ss+EWNkWtlnc47CQyQwP5gynajqDMnGs0KrZu+kEB4iNviTbKJik+pBZB5MmY53FdNSIkdTdttT5sUpG3+o7Cy8u9Y1cSos64WHSN8quU2gB7fZ+LasGB4iaj7WAZVIkHroeRFNWZ8/noWHSN9OEpkvGSy6YMIWwJ5N7k1kEhEeXkgg0YgfiBRAZq8XMCIwj1KIKiLZ6m+lM4ElY64isO2SfdusOmRzjqKYCKPYKN3qW61gJTU+Qty0PhdaYBFSeg0YWbS12uBVAIgaOZfAFf1KdwoH6VYyaiFiryQAJoWAcN5F+t6zvQqjsRrqZywHiUM2hxJxPUp4iewpLAK6mV0xCJTKYAoNhdU0NE6b+YU6f98uNgoXEQieJovyrpU2q399EUltWrZBsqc/iO7PmExgnjv/KLwaAVrprqSfiCjsJUp8aJh7+/lDFLvl8lJ1EWS3zyhO1MZaLfOm5iAcQJON7UIVEaMVrOBSJiLThtusgCnRb8t8OUUr3Kkafu6kEtVELhCeKBp5D1MOUomp9xEbngRxgi+MumG0MgE1D3TwCXu/1t9AsOU+eMIK89iHPjauit5nU+8DHQReDVSrrRfZOYNGPSz1vViByOHpmrGWvSdYgSHIL+lMbPTXKJphw89H+XiBQnngXFEK4fURJQLV2wQnVWLrc7sYd6k1PxFvHexYUvEUBFQTySvsY5t02hmCvtYP+cGXEhkK6LasC32XLJbN2WY7MMbXERl642Ww+MjPxsZivDA1/Hwcim45NnzG9ZLiecQeNKseQdRfVujX4xdjV1iQnJk5R+HZtYpfFfk7h8Zh6i+en9VA9I6p6N7uIRLMJKNIAu9IRg/Pg+OQu+ojds2DNRw6Mm0d/dxEPBpxE+HJvBE/rqMROh1s/NkTNtSCc6jDF+1epaZV7OgXRGQeShqXmpaqeJ5W6G9W9/ZfDzw31qbu7fdyPsrpbfItUmY481uGz40i8yrVSI05nWS436nQRPPw/vvjP4+eBxNCTGIsAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Footer">
+		<g id="contact info">
+			<g id="Office location">
+				<use id="map-point" href="#img1" transform="matrix(1,0,0,1,-9,-1)"/>
+			</g>
+		</g>
+	</g>
+</svg>

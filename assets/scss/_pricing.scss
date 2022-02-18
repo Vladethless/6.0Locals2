@@ -1,0 +1,145 @@
+.pricing-wrapper {
+    margin-bottom: 110px;
+    background-image: url("../img/illustration/pricing-bg.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    .section-head {
+        .heading-bg {
+            left: 32%;
+            bottom: -25px;
+
+            @media (max-width: 1199px) {
+                left: 28%;
+            }
+
+            @media (max-width: 767px) {
+                left: 25%;
+            }
+        }
+    }
+
+    .pricing-content {
+        margin-top: 80px;
+    }
+
+    .pricing-card {
+        text-align: center;
+        border: 1px solid #ebebeb;
+        padding-bottom: 60px;
+
+        .pricing-plan {
+            display: inline-block;
+            background-color: $color-secondary;
+            padding: 10px 15px;
+            font-size: 18px;
+            line-height: 23px;
+            color: $color-white;
+            font-weight: 400;
+            font-family: $roboto;
+        }
+
+        .pricing-price {
+            padding: 50px;
+        }
+
+        .price {
+            font-size: 50px;
+            line-height: 50px;
+            font-weight: 700;
+            color: $color-secondary;
+            font-family: $roboto;
+            text-align: center;
+        }
+
+        .price-small-text {
+            font-size: 24px;
+            line-height: 24px;
+            font-weight: 400;
+        }
+
+        .pricing-text {
+            font-size: 14px;
+            line-height: 18px;
+            color: $color-gray;
+            font-weight: 400;
+            text-align: center;
+            width: 70%;
+            margin: 0 auto;
+            margin-top: 15px;
+            position: relative;
+
+            &::after {
+                content: "";
+                width: 140px;
+                height: 1px;
+                background-color: #ebebeb;
+                position: absolute;
+                bottom: -40px;
+                left: 23px;
+            }
+        }
+
+        .plan-features {
+            margin-top: 20px;
+            .features-item {
+                font-size: 16px;
+                line-height: 27px;
+                color: $color-gray;
+                font-weight: 400;
+                font-family: "Oxygen";
+                text-align: center;
+
+                &.ultra {
+                    color: $color-white;
+                }
+
+                &:not(:last-child) {
+                    margin-bottom: 10px;
+                }
+
+                .icon {
+                    color: $color-primary;
+                    margin-right: 10px;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .button {
+            margin-top: 60px;
+            background-color: $color-secondary;
+        }
+    }
+
+    .ultra-card {
+        background-color: $color-secondary;
+        margin-top: -20px;
+
+        .pricing-plan {
+            background-color: $color-white;
+            color: $color-secondary;
+        }
+
+        .price {
+            color: $color-white;
+        }
+
+        .pricing-text {
+            color: $color-gray-2;
+
+            &::after {
+                background-color: #143568;
+            }
+        }
+
+        .plan-features {
+            .features-item {
+                color: $color-gray-2;
+            }
+        }
+
+        .button {
+            background-color: $color-primary;
+        }
+    }
+}

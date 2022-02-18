@@ -1,0 +1,13 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 59" width="1" height="59">
+	<title>Steps</title>
+	<style>
+		tspan { white-space:pre }
+		.s0 { fill: #ebebeb } 
+	</style>
+	<g id="Steps">
+		<g id="+">
+			<path id="border" class="s0" d="m0 0h1v60h-1v-60z" />
+			<path id="border" class="s0" d="m-30 31v-1h60v1h-60z" />
+		</g>
+	</g>
+</svg>

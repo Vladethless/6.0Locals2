@@ -1,0 +1,18 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1153 972" width="1153" height="972">
+	<title>Team</title>
+	<style>
+		tspan { white-space:pre }
+		.s0 { opacity: .1;fill: #ffffff } 
+	</style>
+	<g id="Team">
+		<g id="lines grid">
+			<path id="line" class="s0" d="m-384 80v-1h1920v1h-1920z" />
+			<path id="line" class="s0" d="m-384 848v-1h1920v1h-1920z" />
+			<path id="line" class="s0" d="m-384 464v-1h1920v1h-1920z" />
+			<path id="line" class="s0" d="m0 0h1v972h-1v-972z" />
+			<path id="line" class="s0" d="m384 0h1v972h-1v-972z" />
+			<path id="line" class="s0" d="m768 0h1v972h-1v-972z" />
+			<path id="line" class="s0" d="m1152 0h1v972h-1v-972z" />
+		</g>
+	</g>
+</svg>
