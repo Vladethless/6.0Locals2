@@ -3837,7 +3837,7 @@ p {
   content: "";
   width: 140px;
   height: 140px;
-  background: url("../img/services/hover-icon.png");
+  background: url("../img/next.png");
   background-repeat: no-repeat;
   position: absolute;
   top: 180px;
@@ -5552,7 +5552,7 @@ p {
 .contact-wrapper .contact-profile .profile-avatar {
   width: 120px;
   height: 120px;
-  border-radius: 50%;
+
   margin-right: 40px;
 }
 
