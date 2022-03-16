@@ -3094,13 +3094,21 @@ p {
 .banner-wrapper .section-head .section-title {
   color: #ffffff;
 }
+.col-center {
+  display: inline-block;
+  float: none !important;
+}
+.row-center {
+  text-align: center;
+}
 
 .banner-wrapper .banner-overlay {
   width: 100%;
   background-color: #001c4781;
-  background-image: url("../img/illustration/line.svg");
+  background-image: url("../img/line.png");
   background-size: contain;
   position: absolute;
+  background-repeat: round;
   top: 0;
   bottom: 0;
   left: 0;
@@ -3833,11 +3841,37 @@ p {
   position: relative;
 }
 
-.services-wrapper .services-card::before {
+.services-wrapper .one::before {
   content: "";
   width: 140px;
   height: 140px;
-  background: url("../img/next.png");
+  background: url("../img/siding.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 180px;
+  right: -20px;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+.services-wrapper .two::before {
+  content: "";
+  width: 140px;
+  height: 140px;
+  background: url("../img/roof.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 180px;
+  right: -20px;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+.services-wrapper .three::before {
+  content: "";
+  width: 140px;
+  height: 140px;
+  background: url("../img/window.png");
   background-repeat: no-repeat;
   position: absolute;
   top: 180px;
@@ -3849,21 +3883,6 @@ p {
 
 .services-wrapper .services-card:hover::before {
   opacity: 1;
-}
-
-.services-wrapper .services-card:hover .card-button {
-  background-color: #fc5e16;
-  -webkit-transition: background 0.3s ease-in;
-  transition: background 0.3s ease-in;
-  color: #ffffff;
-}
-
-.services-wrapper .services-card .card-heading {
-  font-size: 20px;
-  line-height: 26px;
-  color: #ffffff;
-  font-weight: 500;
-  margin-top: 10px;
 }
 
 .services-wrapper .services-card .card-button {
@@ -3900,8 +3919,8 @@ p {
 }
 
 .services-wrapper .row > * {
-  padding-right: 0;
-  padding-left: 0;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .interior-wrapper {
@@ -4377,9 +4396,13 @@ p {
   font-size: 38px;
   color: #fc5e16;
   font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  line-height: 130%;
 }
 
 .facts-wrapper .facts-counter .counter-text {
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   line-height: 26px;
   color: #ffffff;
