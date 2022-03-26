@@ -3850,7 +3850,7 @@ p {
   position: absolute;
   top: 180px;
   right: -20px;
-  opacity: 0;
+
   -webkit-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
@@ -3863,7 +3863,6 @@ p {
   position: absolute;
   top: 180px;
   right: -20px;
-  opacity: 0;
   -webkit-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
@@ -3876,7 +3875,6 @@ p {
   position: absolute;
   top: 180px;
   right: -20px;
-  opacity: 0;
   -webkit-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
