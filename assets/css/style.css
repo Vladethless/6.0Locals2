@@ -3178,40 +3178,39 @@ p {
   }
 }
 
-.about-wrapper .right-content .section-head {
+.right-content .section-head {
   margin-bottom: 20px;
 }
-
-.about-wrapper .right-content .section-head .heading-bg {
+.right-content .section-head .heading-bg {
   bottom: 25px;
 }
 
 @media (max-width: 1199px) {
-  .about-wrapper .right-content .section-head .heading-bg {
+  .right-content .section-head .heading-bg {
     left: 10px;
   }
 }
 
-.about-wrapper .right-content .body-text {
+.right-content .body-text {
   padding-right: 80px;
 }
 
 @media (max-width: 400px) {
-  .about-wrapper .right-content .body-text {
+  .right-content .body-text {
     padding-right: 30px;
   }
 }
 
-.about-wrapper .right-content .right-content-items {
+.right-content .right-content-items {
   margin-top: 20px;
   margin-bottom: 40px;
 }
 
-.about-wrapper .right-content .right-content-items .single-item:not(:last-child) {
+.right-content .right-content-items .single-item:not(:last-child) {
   margin-bottom: 10px;
 }
 
-.about-wrapper .right-content .right-content-items .single-item-icon {
+.right-content .right-content-items .single-item-icon {
   color: #fc5e16;
   margin-right: 10px;
 }
