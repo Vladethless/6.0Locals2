@@ -3192,7 +3192,7 @@ p {
 }
 
 .right-content .body-text {
-  padding-right: 80px;
+  padding-right: 10px;
 }
 
 @media (max-width: 400px) {
